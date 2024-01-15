@@ -97,27 +97,10 @@ export default function Service() {
                 </div>
 
                 <div className="-mx-4 flex flex-wrap">
+
                     <ServiceCard
-                        title="Refreshing Design"
-                        details="We dejoy working with discerning clients, people for whom qualuty, service, integrity & aesthetics."
-                        icon={
-                            <svg
-                                width="36"
-                                height="36"
-                                viewBox="0 0 36 36"
-                                fill="none"
-                                xmlns="http://www.w3.org/2000/svg"
-                            >
-                                <path
-                                    d="M21.0375 1.2374C11.8125 -0.393851 2.92503 5.7374 1.29378 14.9624C0.450029 19.4061 1.46253 23.9624 4.05003 27.6749C6.63753 31.4436 10.5188 33.9186 14.9625 34.7624C15.975 34.9311 16.9875 35.0436 18 35.0436C26.0438 35.0436 33.2438 29.2499 34.7625 21.0374C36.3938 11.8124 30.2625 2.9249 21.0375 1.2374ZM32.2313 20.5874C32.175 21.0374 32.0625 21.4874 31.95 21.8811L19.2375 17.0999V3.5999C19.6875 3.65615 20.1375 3.7124 20.5313 3.76865C28.4063 5.1749 33.6375 12.7124 32.2313 20.5874ZM16.7063 3.5999V16.7624H3.60003C3.65628 16.3124 3.71253 15.8624 3.76878 15.4124C4.95003 8.83115 10.4063 4.10615 16.7063 3.5999ZM15.4125 32.2311C11.5875 31.5561 8.32503 29.4186 6.13128 26.2124C4.66878 24.1311 3.82503 21.7124 3.60003 19.2374H17.775L31.05 24.2436C28.2938 29.9811 21.9375 33.4686 15.4125 32.2311Z"
-                                    fill="white"
-                                />
-                            </svg>
-                        }
-                    />
-                    <ServiceCard
-                        title="Based on Tailwind CSS"
-                        details="We dejoy working with discerning clients, people for whom qualuty, service, integrity & aesthetics."
+                        title="Marketing Solutions"
+                        details="Hera provides end-to-end marketing solutions, covering everything from brand strategy and digital advertising to content creation and social media management."
                         icon={
                             <svg
                                 width="36"
@@ -136,8 +119,8 @@ export default function Service() {
                         }
                     />
                     <ServiceCard
-                        title="100+ Components"
-                        details="We dejoy working with discerning clients, people for whom qualuty, service, integrity & aesthetics."
+                        title="Innovative Software Development"
+                        details="Stay ahead of the curve with Hera\'s cutting- edge software solutions.We specialize in creating bespoke software tailored to your unique needs, ensuring efficiency, scalability, and a seamless user experience."
                         icon={
                             <svg
                                 width="36"
@@ -166,8 +149,8 @@ export default function Service() {
                         }
                     />
                     <ServiceCard
-                        title="Speed Optimized"
-                        details="We dejoy working with discerning clients, people for whom qualuty, service, integrity & aesthetics."
+                        title="Strategic Digital Marketing Campaigns"
+                        details="Our team at Hera crafts strategic digital marketing campaigns to boost your online presence. From SEO optimization to targeted ad campaigns, we ensure your brand is seen by the right audience at the right time."
                         icon={
                             <svg
                                 width="36"
@@ -188,8 +171,8 @@ export default function Service() {
                         }
                     />
                     <ServiceCard
-                        title="Fully Customizable"
-                        details="We dejoy working with discerning clients, people for whom qualuty, service, integrity & aesthetics."
+                        title="Automation for Efficiency"
+                        details="Streamline your workflows with Hera\'s automation tools.From marketing tasks to internal processes, automation enhances efficiency, reduces manual workload, and accelerates your business operations."
                         icon={
                             <svg
                                 width="36"
@@ -206,8 +189,8 @@ export default function Service() {
                         }
                     />
                     <ServiceCard
-                        title="Regular Updates"
-                        details="We dejoy working with discerning clients, people for whom qualuty, service, integrity & aesthetics."
+                        title="API Integration"
+                        details="Hera seamlessly integrates with a variety of APIs, allowing your software systems to communicate effortlessly with external platforms. Unlock new possibilities, enhance functionality, and improve connectivity with our dynamic API integration solutions."
                         icon={
                             <svg
                                 width="36"
@@ -222,6 +205,24 @@ export default function Service() {
                                 />
                                 <path
                                     d="M34.9312 27.9562L32.625 21.9375C32.4562 21.5437 32.175 21.2062 31.7812 21.0375C31.3875 20.8687 30.9375 20.8687 30.5437 21.0375L24.3562 23.3999C23.6812 23.6249 23.4 24.3562 23.625 25.0312C23.85 25.7062 24.5813 25.9875 25.2563 25.7625L29.1375 24.3C26.8875 28.4062 22.5 31.1062 17.6062 31.1062C12.0375 31.1062 7.14375 27.6187 5.4 22.4437C5.175 21.7687 4.44375 21.4312 3.825 21.6562C3.15 21.8812 2.8125 22.6124 3.0375 23.2312C5.11875 29.4187 10.9687 33.5812 17.6062 33.5812C23.4 33.5812 28.6312 30.375 31.275 25.425L32.5688 28.8562C32.7375 29.3625 33.2437 29.6437 33.75 29.6437C33.9187 29.6437 34.0312 29.6437 34.2 29.5312C34.875 29.3625 35.1562 28.6312 34.9312 27.9562Z"
+                                    fill="white"
+                                />
+                            </svg>
+                        }
+                    />
+                    <ServiceCard
+                        title="Professional-Grade Video Editing Suite"
+                        details="Streamline your workflows with Hera\'s automation tools.From marketing tasks to internal processes, automation enhances efficiency, reduces manual workload, and accelerates your business operations."
+                        icon={
+                            <svg
+                                width="36"
+                                height="36"
+                                viewBox="0 0 36 36"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                            >
+                                <path
+                                    d="M21.0375 1.2374C11.8125 -0.393851 2.92503 5.7374 1.29378 14.9624C0.450029 19.4061 1.46253 23.9624 4.05003 27.6749C6.63753 31.4436 10.5188 33.9186 14.9625 34.7624C15.975 34.9311 16.9875 35.0436 18 35.0436C26.0438 35.0436 33.2438 29.2499 34.7625 21.0374C36.3938 11.8124 30.2625 2.9249 21.0375 1.2374ZM32.2313 20.5874C32.175 21.0374 32.0625 21.4874 31.95 21.8811L19.2375 17.0999V3.5999C19.6875 3.65615 20.1375 3.7124 20.5313 3.76865C28.4063 5.1749 33.6375 12.7124 32.2313 20.5874ZM16.7063 3.5999V16.7624H3.60003C3.65628 16.3124 3.71253 15.8624 3.76878 15.4124C4.95003 8.83115 10.4063 4.10615 16.7063 3.5999ZM15.4125 32.2311C11.5875 31.5561 8.32503 29.4186 6.13128 26.2124C4.66878 24.1311 3.82503 21.7124 3.60003 19.2374H17.775L31.05 24.2436C28.2938 29.9811 21.9375 33.4686 15.4125 32.2311Z"
                                     fill="white"
                                 />
                             </svg>
