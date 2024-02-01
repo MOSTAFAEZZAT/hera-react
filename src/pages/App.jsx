@@ -2,7 +2,6 @@ import { useState } from 'react'
 import { Dialog } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 
-
 const navigation = [
   { name: 'Home', href: '#' },
   { name: 'Company', href: '#' },
@@ -19,10 +18,12 @@ export default function HeroSection() {
         <nav className="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
           <div className="flex lg:flex-1">
             <a href="#" className="-m-1.5 p-1.5">
-              <span className="sr-only">Your Company</span>
+              <span className="sr-only">Hera</span>
+
+
               <img
                 className="h-8 w-auto"
-                src="./src/assets/LOGO.svg"
+                src="./src/assets/final-logo.svg"
                 alt=""
               />
             </a>
