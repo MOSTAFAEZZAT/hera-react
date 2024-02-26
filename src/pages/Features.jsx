@@ -16,7 +16,7 @@ const features = [
   {
     name: "Innovative Software Development",
     description:
-      "Stay ahead of the curve with Hera's cutting- edge software solutions.We specialize in creating bespoke software tailored to your unique needs, ensuring efficiency, scalability, and a seamless user experience.",
+      "Stay ahead of the curve with Heras cutting-edge software solutions.We specialize in creating bespoke software tailored to your unique needs, ensuring efficiency, scalability, and a seamless user experience.",
     icon: LockClosedIcon,
   },
   {
@@ -124,7 +124,7 @@ export default function Service() {
           />
           <ServiceCard
             title="Innovative Software Development"
-            details="Stay ahead of the curve with Hera\'s cutting- edge software solutions.We specialize in creating bespoke software tailored to your unique needs, ensuring efficiency, scalability, and a seamless user experience."
+            details="Stay ahead of the curve with Hera's cutting-edge software solutions.We specialize in creating bespoke software tailored to your unique needs, ensuring efficiency, scalability, and a seamless user experience."
             icon={
               <svg
                 width="36"
@@ -176,7 +176,7 @@ export default function Service() {
           />
           <ServiceCard
             title="Automation for Efficiency"
-            details="Streamline your workflows with Hera\'s automation tools.From marketing tasks to internal processes, automation enhances efficiency, reduces manual workload, and accelerates your business operations."
+            details="Streamline your workflows with Hera's automation tools.From marketing tasks to internal processes, automation enhances efficiency, reduces manual workload, and accelerates your business operations."
             icon={
               <svg
                 width="36"
@@ -216,7 +216,7 @@ export default function Service() {
           />
           <ServiceCard
             title="Professional-Grade Video Editing Suite"
-            details="Streamline your workflows with Hera\'s automation tools.From marketing tasks to internal processes, automation enhances efficiency, reduces manual workload, and accelerates your business operations."
+            details="Streamline your workflows with Hera's automation tools.From marketing tasks to internal processes, automation enhances efficiency, reduces manual workload, and accelerates your business operations."
             icon={
               <svg
                 width="36"
