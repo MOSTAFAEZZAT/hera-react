@@ -1,5 +1,5 @@
 import React from "react";
-
+import Logo from '../assets/Logo'
 const Footer = () => {
   const currentYear = new Date().getFullYear();
   return (
@@ -10,11 +10,7 @@ const Footer = () => {
             <div className="w-full px-4 sm:w-2/3 lg:w-3/12">
               <div className="w-full mb-10">
                 <a href="/#" className="mb-6 inline-block max-w-[160px]">
-                  <img
-                    src="./src/assets/final-logo.svg"
-                    alt="logo"
-                    className="max-w-full dark:hidden"
-                  />
+                  <Logo />
                   <img
                     src="https://cdn.tailgrids.com/2.0/image/assets/images/logo/logo-white.svg"
                     alt="logo"
