@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from '../assets/Logo'
+import Logo from "../assets/Logo";
 const Footer = () => {
   const currentYear = new Date().getFullYear();
   return (
@@ -9,7 +9,7 @@ const Footer = () => {
           <div className="flex flex-wrap -mx-4">
             <div className="w-full px-4 sm:w-2/3 lg:w-3/12">
               <div className="w-full mb-10">
-                <a href="/#" className="mb-6 inline-block max-w-[160px]">
+                <a href="/" className="mb-6 inline-block max-w-[160px]">
                   <Logo />
                   <img
                     src="https://cdn.tailgrids.com/2.0/image/assets/images/logo/logo-white.svg"
@@ -82,7 +82,7 @@ const Footer = () => {
                 </h4>
                 <div className="flex items-center mb-6">
                   <a
-                    href="javascript:void(0)"
+                    href="/"
                     className="flex items-center justify-center w-8 h-8 mr-3 border rounded-full border-stroke text-dark hover:border-primary hover:bg-primary hover:text-white dark:border-dark-3 dark:text-white dark:hover:border-primary sm:mr-4 lg:mr-3 xl:mr-4"
                   >
                     <svg
@@ -95,7 +95,7 @@ const Footer = () => {
                     </svg>
                   </a>
                   <a
-                    href="javascript:void(0)"
+                    href="/"
                     className="flex items-center justify-center w-8 h-8 mr-3 border rounded-full border-stroke text-dark hover:border-primary hover:bg-primary hover:text-white dark:border-dark-3 dark:text-white dark:hover:border-primary sm:mr-4 lg:mr-3 xl:mr-4"
                   >
                     <svg
@@ -108,7 +108,7 @@ const Footer = () => {
                     </svg>
                   </a>
                   <a
-                    href="javascript:void(0)"
+                    href="/"
                     className="flex items-center justify-center w-8 h-8 mr-3 border rounded-full border-stroke text-dark hover:border-primary hover:bg-primary hover:text-white dark:border-dark-3 dark:text-white dark:hover:border-primary sm:mr-4 lg:mr-3 xl:mr-4"
                   >
                     <svg
@@ -121,7 +121,7 @@ const Footer = () => {
                     </svg>
                   </a>
                   <a
-                    href="javascript:void(0)"
+                    href="/"
                     className="flex items-center justify-center w-8 h-8 mr-3 border rounded-full border-stroke text-dark hover:border-primary hover:bg-primary hover:text-white dark:border-dark-3 dark:text-white dark:hover:border-primary sm:mr-4 lg:mr-3 xl:mr-4"
                   >
                     <svg
