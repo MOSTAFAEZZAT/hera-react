@@ -1,17 +1,22 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Dialog } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
+import { animateScroll as scroll } from "react-scroll";
+
 import Logo from "../assets/Logo";
+
 const navigation = [
-  { name: "Home", href: "#" },
-  { name: "Company", href: "#" },
-  { name: "About", href: "#" },
-  { name: "Contact", href: "#" },
+  { name: "Home", href: "#home", scrollNumber: 0 },
+  { name: "Company", href: "#company", scrollNumber: 100 },
+  { name: "About", href: "#about", scrollNumber: 950 },
+  { name: "Contact", href: "#contact", scrollNumber: 0 },
 ];
 
 export default function HeroSection() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-
+  const scrollToSection = (num) => {
+    scroll.scrollTo(num);
+  };
   return (
     <div className="bg-white">
       <header className="absolute inset-x-0 top-0 z-50">
@@ -40,6 +45,9 @@ export default function HeroSection() {
           <div className="hidden lg:flex lg:gap-x-12">
             {navigation.map((item) => (
               <a
+                onClick={() => {
+                  scrollToSection(item.scrollNumber);
+                }}
                 key={item.name}
                 href={item.href}
                 className="text-sm font-semibold leading-6 text-gray-900"
@@ -61,11 +69,7 @@ export default function HeroSection() {
             <div className="flex items-center justify-between">
               <a href="#" className="-m-1.5 p-1.5">
                 <span className="sr-only">Your Company</span>
-                <img
-                  className="w-auto h-8"
-                  src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
-                  alt=""
-                />
+                <Logo />
               </a>
               <button
                 type="button"
