@@ -17,7 +17,7 @@ export default function TrustedBy() {
           />
           <img
             className="object-contain w-full col-span-2 max-h-12 lg:col-span-1"
-            src={"./src/assets/AD-LOGO-1.png"}
+            src={apriliLogo}
             alt="Reform"
             width={158}
             height={48}
