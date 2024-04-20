@@ -1,5 +1,6 @@
 import apriliLogo from "../assets/AD-LOGO-1.png";
-
+import UpworkLogo from "../assets/upworkLogo.svg";
+import ShopifyLogo from "../assets/shopifyLogo.svg";
 export default function TrustedBy() {
   return (
     <div className="py-24 bg-white sm:py-32">
@@ -10,8 +11,8 @@ export default function TrustedBy() {
         <div className="grid items-center max-w-lg grid-cols-4 mx-auto mt-10 gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-5">
           <img
             className="object-contain w-full col-span-2 max-h-12 lg:col-span-1"
-            src="https://tailwindui.com/img/logos/158x48/transistor-logo-gray-900.svg"
-            alt="Transistor"
+            src={ShopifyLogo}
+            alt="Shopify"
             width={158}
             height={48}
           />
@@ -24,8 +25,8 @@ export default function TrustedBy() {
           />
           <img
             className="object-contain w-full col-span-2 max-h-12 lg:col-span-1"
-            src="https://tailwindui.com/img/logos/158x48/tuple-logo-gray-900.svg"
-            alt="Tuple"
+            src={UpworkLogo}
+            alt="Upwork"
             width={158}
             height={48}
           />
